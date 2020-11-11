@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
 }
 
 .body {
@@ -62,6 +63,9 @@ body {
       }
     }
   }
+}
+a {
+  text-decoration: none;
 }
 .main {
   &__chat {

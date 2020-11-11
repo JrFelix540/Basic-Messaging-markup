@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
 }
 
 .body__bg {
@@ -80,6 +81,10 @@ body {
 .header__menu-search img {
   height: 30px;
   width: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 .main__chat {
