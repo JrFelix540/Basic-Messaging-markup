@@ -1,0 +1,239 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.body__bg {
+  background-color: #f0f0f0;
+}
+
+.header__chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #457b9d;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+  height: 7vh;
+}
+
+.header__chat-back {
+  margin-right: 20px;
+}
+
+.header__chat-back img {
+  height: 30px;
+  width: auto;
+}
+
+.header__chat-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__chat-title .chat__icon {
+  margin-right: 10px;
+}
+
+.header__chat-title .chat__icon img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header__menu {
+  background-color: #457b9d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.header__menu-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__menu-mobile {
+  margin-right: 30px;
+}
+
+.header__menu-mobile .line {
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  margin: 5px 0;
+}
+
+.header__menu-search img {
+  height: 30px;
+  width: auto;
+}
+
+.main__chat {
+  height: 90vh;
+  position: relative;
+}
+
+.text__primary {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.text__secondary {
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.text__secondary--1 {
+  color: #fff;
+}
+
+.text__tertiary {
+  font-size: 16px;
+  color: #696969;
+}
+
+.section__messages {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.section__chats .chat {
+  padding: 10px 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 6fr;
+      grid-template-columns: 1fr 6fr;
+  border-bottom: #eaeaea solid 1px;
+}
+
+.section__chats .chat__icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.section__chats .chat__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__chats .chat__content-center .chat__title {
+  margin-bottom: 5px;
+}
+
+.section__send {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  right: 10px;
+}
+
+.form__send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn__send {
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #457b9d;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.input__message {
+  width: 70%;
+  height: 25px;
+  border-radius: 20px;
+  border: 1px #696969 solid;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.messages .message {
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 60%;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.messages .message__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.messages .message__container-received {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.messages .message__container-received .message {
+  background-color: #fff;
+  color: #333;
+}
+
+.messages .message__container-sent {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.messages .message__container-sent .message {
+  background-color: #457b9d;
+  color: #fff;
+}
+
+.messages .message__sent {
+  background-color: #58bf56;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.messages .message__received {
+  background-color: #fff;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=style.css.map */
